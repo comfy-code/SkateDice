@@ -1,0 +1,93 @@
+* {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+h1 {
+  color: orangered;
+  font-size: 3em;
+  text-align: center;
+  margin-top: 30px;
+}
+
+img {
+  border-radius: 0.5em;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.9);
+  margin: 15px;
+  width: 27%;
+  border: 1px solid silver;
+}
+
+.comfy {
+  color: silver;
+  font-size: 0.7em;
+}
+
+.rules {
+  text-decoration: underline;
+  color: snow;
+  padding: 15px;
+}
+
+.first-div {
+  margin-top: 5px;
+}
+
+.second-div {
+  margin-bottom: 5px;
+}
+
+.rules-div {
+  border-radius: 0.5em;
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  color: black;
+  padding: 20px;
+  font-size: 1em;
+  line-height: 2em;
+  position: absolute;
+  top: 650px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+
+.hidden {
+  display: none;
+}
+
+.trick-name {
+  color: whitesmoke;
+  padding: 15px;
+  font-size: 1.3em;
+}
+
+button {
+  background-color: orangered;
+  border: none;
+  border-radius: 0.5em;
+  color: white;
+  padding: 12px 15px;
+  font-size: 1em;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}

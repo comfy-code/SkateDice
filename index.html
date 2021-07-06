@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <title>Skate Dice</title>
+  </head>
+  <body>
+    <h1>Skate Dice</h1>
+    <p class="comfy" >BY COMFYCODE</p>
+
+    <p class="rules">Rules</p>
+
+    <!-- The Dice  -->
+    <div>
+      <div class="first-div">
+        <img class="dice1" src="d44.png" />
+        <img class="dice2" src="d44.png" />
+      </div>
+
+      <div class="second-div">
+        <img class="dice3" src="d44.png" />
+        <img class="dice4" src="d44.png" />
+      </div>
+    </div>
+
+    <!-- The Rules in a Modal  -->
+    <div class="rules-div hidden">
+      <h2 style="display: inline-block">Rules</h2>
+      <button
+        class="rules-div-exit"
+        style="float: right; position: relative; bottom: 10px"
+      >
+        &times;
+      </button>
+      <h3>Game of S.K.A.T.E</h3>
+      <p>
+        1. Play Rock Paper Scissors to decide who gos first.
+        <br />
+        2. Player 1 rolls a new trick; if they land the trick player 2 must land
+        it to avoid getting a letter (S)
+        <br />
+        3. If player 1 misses the trick, it is player 2's turn to roll a new
+        trick -
+        <br />
+        4. The first player to miss 5 of the other players tricks hence getting
+        all letters S.K.A.T.E loses the game.
+      </p>
+
+      <h4>Gambling Game</h4>
+      <p>
+        1. Grab some friends and put some money up. <br />
+        2. Ro sham bo for first. <br />
+        3. Player 1 set a bet $$ and another player match it. it <br />
+        4. Player 1 rolls a new trick, if player 1 lands the trick they get all
+        the money betted. 5. If player 1 misses the trick, player 2 takes the
+        pot. <br />
+        6. REPEAT!
+      </p>
+
+      <button class="btn-close">CLOSE</button>
+    </div>
+
+    <div class="overlay hidden"></div>
+
+    <p class="trick-name">Trick Name</p>
+
+    <button class="btn-roll">Roll New Trick!</button>
+    <script src="script.js"></script>
+  </body>
+</html>
